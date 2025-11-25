@@ -28,6 +28,7 @@ export const certificatesList: string[] = [
   "CompTIA IT+",
   "CISCO",
   "BASED BUILD PH",
+  "LEGO Robotics"
 ];
 
 export const contactLinks: ContactLink[] = [
@@ -73,12 +74,12 @@ export const experienceTimeline: ExperienceItem[] = [
 ];
 
 export const featureBadges: string[] = [
-  "Design Systems",
-  "Rapid Prototyping",
-  "Robotics",
-  "Automation",
-  "UI Engineering",
-  "Community Work",
+  "Web & App Development",
+  "UI/UX Design",
+  "Frontend/Backend Development",
+  "Database Management",
+  "Networking Basics",
+  "Team Collaboration",
 ];
 
 export const projectsData: ProjectItem[] = [
@@ -94,7 +95,7 @@ export const projectsData: ProjectItem[] = [
     title: "Velvet Bean Cafe Website",
     description:
       "Website highlighting specialty coffee drinks, tasting flights, and café experiences designed to showcase the menu and atmosphere.",
-    concept: "Café Experience Showcase",
+    concept: "Cafe Showcase",
     stack: ["Node.js", "CSS", "TypeScript"],
     url: "https://velvet-bean-cafe.vercel.app",
   },
