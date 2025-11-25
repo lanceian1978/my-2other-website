@@ -63,6 +63,7 @@ export const projectsData = [
       "Progressive web app that helps students explore the campus and track upcoming org events.",
     concept: "UX Research",
     stack: ["Next.js", "TypeScript", "Leaflet", "Supabase"],
+    url: "https://github.com/lanceian1978/campus-navigator",
   },
   {
     title: "Smart Garden Monitor",
@@ -70,6 +71,7 @@ export const projectsData = [
       "Arduino-powered sensors that log soil data and send alerts through a student-built dashboard.",
     concept: "IoT",
     stack: ["Arduino", "Node.js", "MQTT", "Tailwind"],
+    url: "https://github.com/lanceian1978/smart-garden-monitor",
   },
   {
     title: "Case Study OS",
@@ -77,6 +79,7 @@ export const projectsData = [
       "Collection of UI components + learning docs reused across hackathons and class demos.",
     concept: "Design System",
     stack: ["React", "Storybook", "Radix UI", "Framer Motion"],
+    url: "https://github.com/lanceian1978/case-study-os",
   },
 ];
 
