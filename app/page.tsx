@@ -93,7 +93,7 @@ export default function Home() {
                   href="https://github.com/lanceian1978"
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full border border-slate-200 px-6 py-3 text-sm font-semibold text-slate-900 transition hover:-translate-y-1 hover:border-indigo-400 hover:bg-indigo-50 hover:text-indigo-700"
+                  className="inline-flex items-center gap-2 rounded-full border border-white/30 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-1 hover:border-emerald-300 hover:bg-white/10"
                 >
                   GitHub profile
                 </a>
@@ -106,14 +106,14 @@ export default function Home() {
               <div className="relative rounded-[28px] border border-white/20 bg-white/85 p-6 shadow-[0_30px_80px_rgba(15,23,42,0.2)] backdrop-blur-2xl">
                 <p className="text-xs uppercase tracking-[0.5em] text-slate-500">Featured Identity</p>
                 <div className="mt-6 flex flex-col gap-4 rounded-2xl border border-white/20 bg-gradient-to-br from-slate-900 via-slate-800 to-violet-900 p-6 text-white shadow-inner">
-                  <div className="flex items-center gap-4">
+                  <div className="flex items-center gap-4 text-slate-100">
                     <div className="relative h-16 w-16 overflow-hidden rounded-2xl border border-white/30">
                       <Image src="/profile.jpg" alt="Lance Ian T. Leanillo" fill className="object-cover" sizes="64px" priority />
                     </div>
                     <div>
                       <p className="text-sm uppercase tracking-[0.4em] text-white/70">CPU · Iloilo City</p>
-                      <p className="text-xl font-semibold">Lance Leanillo</p>
-                      <p className="text-sm text-white/80">Software Development Specialist</p>
+                      <p className="text-xl font-semibold text-emerald-200">Lance Leanillo</p>
+                      <p className="text-sm text-slate-200">Software Development Specialist</p>
                     </div>
                   </div>
                   <p className="text-sm text-white/90">
