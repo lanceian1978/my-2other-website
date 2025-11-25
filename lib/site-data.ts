@@ -30,20 +30,20 @@ export const contactLinks = [
 
 export const experienceTimeline = [
   {
-    period: "2023 — Present",
-    title: "CS Student · CPU College of Engineering",
+    period: "2020",
+    title: "LEGO Education Robotics Trainee",
+    details: "Learned to design, build, and program robotic systems with practical applications.",
+  },
+  {
+    period: "2025",
+    title: "Based Build PH Participant",
+    details: "Developed blockchain solutions and contributed to decentralized app + smart-contract implementations.",
+  },
+  {
+    period: "Present",
+    title: "B.S. Computer Science, CPU",
     details:
-      "Developing full‑stack projects, exploring UI engineering, and collaborating on robotics initiatives.",
-  },
-  {
-    period: "2022",
-    title: "Automation Intern · Local SME",
-    details: "Introduced low-code automations that reduced report prep time by 40%.",
-  },
-  {
-    period: "2021",
-    title: "STEM & Robotics Clubs",
-    details: "Organized coding labs and mentored teammates for LEGO education competitions.",
+      "Specializing in software development, focusing on practical software solutions, web/app builds, and programming best practices.",
   },
 ];
 
@@ -58,82 +58,65 @@ export const featureBadges = [
 
 export const projectsData = [
   {
-    title: "Campus Navigator",
+    title: "Shopping List App",
     description:
-      "Progressive web app that helps students explore the campus and track upcoming org events.",
-    concept: "UX Research",
-    stack: ["Next.js", "TypeScript", "Leaflet", "Supabase"],
-    url: "https://github.com/lanceian1978/campus-navigator",
+      "Web app for creating, editing, and organizing shopping lists with real-time database updates — built to practice full-stack workflows.",
+    concept: "Connected Database",
+    stack: ["React", "Node.js", "Firebase", "Supabase"],
+    url: "https://github.com/lanceian1978/shopping-list-app",
   },
   {
-    title: "Smart Garden Monitor",
+    title: "FABLE App (UI/UX)",
     description:
-      "Arduino-powered sensors that log soil data and send alerts through a student-built dashboard.",
-    concept: "IoT",
-    stack: ["Arduino", "Node.js", "MQTT", "Tailwind"],
-    url: "https://github.com/lanceian1978/smart-garden-monitor",
+      "Figma-based mobile experience focused on intuitive navigation, wireframes, and interactive prototypes for a storytelling app.",
+    concept: "Interactive Design",
+    stack: ["Figma", "UI/UX", "Prototyping"],
+    url: "https://github.com/lanceian1978/fable-app-ui",
   },
   {
-    title: "Case Study OS",
+    title: "Cooking Book Recipe Website",
     description:
-      "Collection of UI components + learning docs reused across hackathons and class demos.",
-    concept: "Design System",
-    stack: ["React", "Storybook", "Radix UI", "Framer Motion"],
-    url: "https://github.com/lanceian1978/case-study-os",
+      "Responsive recipe hub where users can browse, filter, and read cooking workflows — built to hone front-end design and dynamic content.",
+    concept: "Content Library",
+    stack: ["HTML", "CSS", "JavaScript", "React"],
+    url: "https://github.com/lanceian1978/cooking-book",
   },
 ];
 
 export const servicesData = [
   {
-    title: "Product & UI Prototyping",
+    title: "Full-Stack Development",
     description:
-      "Shape early concepts into interactive prototypes that clarify scope and handoff.",
+      "Designing end-to-end web experiences from planning and wireframes to coding and deployment with modern tools.",
     bullets: [
-      "Wireframes & user stories",
-      "Component libraries",
-      "High-fidelity handoff kits",
+      "Skills & Technologies:",
+      "Frontend/Backend: Next.js, Node.js, HTML, CSS, JavaScript",
+      "APIs: REST + basic GraphQL",
+      "Rapid prototyping & MVP builds",
+      "Design & UI: Tailwind CSS, responsive layouts",
+      "Deployment & tools: Vercel, GitHub, Supabase",
     ],
   },
   {
-    title: "Full-Stack Student Builds",
+    title: "Automation & Internal Tools (Campus Projects)",
     description:
-      "Bring ideas to life using modern web stacks, focusing on maintainability and DX.",
+      "Exploring scripts, dashboards, and collaborative tools that simplify workflows and improve efficiency.",
     bullets: [
-      "API and data modeling",
-      "Automation & scripting",
-      "Deployment-ready code",
-    ],
-  },
-  {
-    title: "Robotics & STEM Facilitation",
-    description:
-      "Design workshops and lesson plans that merge code, hardware, and creativity.",
-    bullets: [
-      "Intro to robotics",
-      "Arduino integrations",
-      "Team mentoring",
-    ],
-  },
-  {
-    title: "Student Tech Advocacy",
-    description:
-      "Community-facing documentation and showcases that tell the story behind builds.",
-    bullets: [
-      "Technical blogging",
-      "Demo storytelling",
-      "Collab-friendly repos",
+      "Workflow automation concepts",
+      "Dashboard experiments",
+      "Collaboration tooling",
+      "Continuous iteration with classmates and mentors",
     ],
   },
 ];
 
 export const skillsList = [
-  "TypeScript",
-  "Next.js",
-  "React",
-  "Tailwind CSS",
-  "Node.js",
-  "Arduino",
+  "Dart",
+  "JavaScript",
+  "HTML/CSS",
   "Python",
-  "Figma",
+  "UI/UX",
+  "Node.js",
+  "Flutter",
 ];
 
