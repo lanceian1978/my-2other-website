@@ -25,10 +25,9 @@ export type ServiceItem = {
 };
 
 export const certificatesList: string[] = [
-  "CompTIA ITF+",
-  "LEGO Robotics",
+  "CompTIA IT+",
+  "CISCO",
   "BASED BUILD PH",
-  "CPU STEM Expo",
 ];
 
 export const contactLinks: ContactLink[] = [
@@ -89,7 +88,7 @@ export const projectsData: ProjectItem[] = [
       "Web app showcasing a curated collection of recipes with easy browsing and search features focused on discovering new dishes.",
     concept: "Recipe Library",
     stack: ["TypeScript", "Node.js", "JavaScript", "CSS"],
-    url: "recipe-book-website-topaz.vercel.app",
+    url: "https://recipe-book-website-topaz.vercel.app",
   },
   {
     title: "Velvet Bean Cafe Website",
@@ -97,41 +96,42 @@ export const projectsData: ProjectItem[] = [
       "Website highlighting specialty coffee drinks, tasting flights, and café experiences designed to showcase the menu and atmosphere.",
     concept: "Café Experience Showcase",
     stack: ["Node.js", "CSS", "TypeScript"],
-    url: "velvet-bean-cafe.vercel.app",
+    url: "https://velvet-bean-cafe.vercel.app",
   },
   {
     title: "Website Calculator",
     description:
       "A simple and interactive web-based calculator for performing basic arithmetic operations quickly and efficiently.",
-    concept: "Content Library",
+    concept: "Simple Calculator",
     stack: ["TypeScript", "HTML", "JavaScript", "Node.js"],
-    url: "calculator-website-liart.vercel.app",
+    url: "https://calculator-website-liart.vercel.app",
   },
 ];
 
 export const servicesData: ServiceItem[] = [
   {
-    title: "Full-Stack Development",
+    title: "Full-Stack Skills",
     description:
-      "Designing end-to-end web experiences from planning and wireframes to coding and deployment with modern tools.",
+      "Hands-on learning in web development, programming, networking, and UI/UX design using modern tools and platforms.",
     bullets: [
-      "Skills & Technologies:",
+      "Skills & Technologies learned:",
+      "Databases: SQL, FireBase",
       "Frontend/Backend: Next.js, Node.js, HTML, CSS, JavaScript",
-      "APIs: REST + basic GraphQL",
-      "Rapid prototyping & MVP builds",
-      "Design & UI: Tailwind CSS, responsive layouts",
-      "Deployment & tools: Vercel, GitHub, Supabase",
+      "Programming & Mobile: Dart, Python, Flutter",
+      "Networking: Cisco basics",
+      "Design: UI/UX with Figma",
+      "Deployment & tools: Vercel, GitHub",
     ],
   },
   {
-    title: "Automation & Internal Tools (Campus Projects)",
+    title: "School Projects & Experiments",
     description:
-      "Exploring scripts, dashboards, and collaborative tools that simplify workflows and improve efficiency.",
+      "Building practical projects and experimenting with tools to learn programming, automation, and collaboration in real-world scenarios.",
     bullets: [
-      "Workflow automation concepts",
-      "Dashboard experiments",
-      "Collaboration tooling",
-      "Continuous iteration with classmates and mentors",
+      "Learning workflow automation",
+      "Creating interactive dashboards",
+      "Experimenting with collaboration tools",
+      "Iterating and improving projects with peers and mentors",
     ],
   },
 ];
