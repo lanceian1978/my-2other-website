@@ -1,4 +1,4 @@
-
+import type { ReactElement } from "react";
 import Image from "next/image";
 import {
   certificatesList,
@@ -10,7 +10,12 @@ import {
   skillsList,
 } from "@/lib/site-data";
 
-const navLinks = [
+type NavLink = {
+  id: string;
+  label: string;
+};
+
+const navLinks: NavLink[] = [
   { id: "home", label: "Home" },
   { id: "about", label: "About" },
   { id: "services", label: "Services" },
@@ -18,11 +23,16 @@ const navLinks = [
   { id: "contact", label: "Contact" },
 ];
 
-const IconArrow = () => (
+const IconArrow = (): ReactElement => (
   <svg viewBox="0 0 24 24" className="h-4 w-4 fill-none stroke-current stroke-2">
     <path d="M5 12h14M13 6l6 6-6 6" />
   </svg>
 );
+
+const gradientAccents = [
+  "from-sky-500/80 via-blue-500/80 to-cyan-400/80",
+  "from-purple-500/80 via-fuchsia-500/80 to-rose-400/80",
+] as const;
 
 export default function Home() {
   return (
@@ -175,34 +185,32 @@ export default function Home() {
               </p>
             </div>
             <div className="mt-10 grid gap-6 lg:grid-cols-2">
-              {servicesData.map((service, index) => {
-                const accents = [
-                  "from-sky-500/80 via-blue-500/80 to-cyan-400/80",
-                  "from-purple-500/80 via-fuchsia-500/80 to-rose-400/80",
-                ];
-                return (
-                  <div
-                    key={service.title}
-                    className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl shadow-slate-900/50 transition-all hover:-translate-y-2"
-                  >
-                    <div className={`absolute inset-0 opacity-0 transition duration-500 group-hover:opacity-100`}>
-                      <div className={`absolute inset-0 bg-gradient-to-br ${accents[index % accents.length]} blur-3xl`} />
-                    </div>
-                    <div className="relative flex flex-col gap-4">
-                      <h3 className="text-xl font-semibold text-slate-900">{service.title}</h3>
-                      <p className="text-sm text-slate-600">{service.description}</p>
-                      <ul className="space-y-2 text-sm text-slate-600">
-                        {service.bullets.map((bullet) => (
-                          <li key={bullet} className="flex gap-2">
-                            <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-900" />
-                            <span>{bullet}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
+              {servicesData.map((service, index) => (
+                <div
+                  key={service.title}
+                  className="group relative overflow-hidden rounded-3xl border border-white/10 bg-white/5 p-6 shadow-xl shadow-slate-900/50 transition-all hover:-translate-y-2"
+                >
+                  <div className="absolute inset-0 opacity-0 transition duration-500 group-hover:opacity-100">
+                    <div
+                      className={`absolute inset-0 bg-gradient-to-br ${
+                        gradientAccents[index % gradientAccents.length]
+                      } blur-3xl`}
+                    />
                   </div>
-                );
-              })}
+                  <div className="relative flex flex-col gap-4">
+                    <h3 className="text-xl font-semibold text-slate-900">{service.title}</h3>
+                    <p className="text-sm text-slate-600">{service.description}</p>
+                    <ul className="space-y-2 text-sm text-slate-600">
+                      {service.bullets.map((bullet) => (
+                        <li key={bullet} className="flex gap-2">
+                          <span className="mt-1 h-1.5 w-1.5 rounded-full bg-slate-900" />
+                          <span>{bullet}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              ))}
             </div>
           </section>
 
