@@ -84,28 +84,28 @@ export const featureBadges: string[] = [
 
 export const projectsData: ProjectItem[] = [
   {
-    title: "Shopping List App",
+    title: "My Cookbook Website",
     description:
-      "Web app for creating, editing, and organizing shopping lists with real-time database updates — built to practice full-stack workflows.",
-    concept: "Connected Database",
-    stack: ["React", "Node.js", "Firebase", "Supabase"],
-    url: "https://github.com/lanceian1978/shopping-list-app",
+      "Web app showcasing a curated collection of recipes with easy browsing and search features focused on discovering new dishes.",
+    concept: "Recipe Library",
+    stack: ["TypeScript", "Node.js", "JavaScript", "CSS"],
+    url: "recipe-book-website-topaz.vercel.app",
   },
   {
-    title: "FABLE App (UI/UX)",
+    title: "Velvet Bean Cafe Website",
     description:
-      "Figma-based mobile experience focused on intuitive navigation, wireframes, and interactive prototypes for a storytelling app.",
-    concept: "Interactive Design",
-    stack: ["Figma", "UI/UX", "Prototyping"],
-    url: "https://github.com/lanceian1978/fable-app-ui",
+      "Website highlighting specialty coffee drinks, tasting flights, and café experiences designed to showcase the menu and atmosphere.",
+    concept: "Café Experience Showcase",
+    stack: ["Node.js", "CSS", "TypeScript"],
+    url: "velvet-bean-cafe.vercel.app",
   },
   {
-    title: "Cooking Book Recipe Website",
+    title: "Website Calculator",
     description:
-      "Responsive recipe hub where users can browse, filter, and read cooking workflows — built to hone front-end design and dynamic content.",
+      "A simple and interactive web-based calculator for performing basic arithmetic operations quickly and efficiently.",
     concept: "Content Library",
-    stack: ["HTML", "CSS", "JavaScript", "React"],
-    url: "https://github.com/lanceian1978/cooking-book",
+    stack: ["TypeScript", "HTML", "JavaScript", "Node.js"],
+    url: "calculator-website-liart.vercel.app",
   },
 ];
 
