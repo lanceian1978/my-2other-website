@@ -55,14 +55,14 @@ export const contactLinks: ContactLink[] = [
 
 export const experienceTimeline: ExperienceItem[] = [
   {
-    period: "2020",
+    period: "2022",
     title: "LEGO Education Robotics Trainee",
-    details: "Learned to design, build, and program robotic systems with practical applications.",
+    details: "Certificate of Completion from Georgia International Academy for the LEGO Mindstorms Education Robotics Student Training Course.",
   },
   {
-    period: "2025",
-    title: "Based Build PH Participant",
-    details: "Developed blockchain solutions and contributed to decentralized app + smart-contract implementations.",
+    period: "2022",
+    title: "CompTIA IT Fundementals",
+    details: "Certificate of Achievement for successfully completing the CompTIA IT Fundamentals course",
   },
   {
     period: "Present",

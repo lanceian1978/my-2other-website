@@ -103,16 +103,18 @@ export default function Home() {
             <div className="relative">
               <div className="absolute -left-6 -top-6 h-24 w-24 animate-float rounded-full bg-gradient-to-r from-sky-400/60 to-emerald-300/60 blur-3xl" />
               <div className="absolute -right-4 bottom-10 h-32 w-32 animate-float-delayed rounded-full bg-gradient-to-r from-fuchsia-500/40 to-purple-500/40 blur-3xl" />
-              <div className="relative rounded-[28px] border border-white/20 bg-white/85 p-6 shadow-[0_30px_80px_rgba(15,23,42,0.2)] backdrop-blur-2xl">
-                <p className="text-xs uppercase tracking-[0.5em] text-slate-500">Featured Identity</p>
-                <div className="mt-6 flex flex-col gap-4 rounded-2xl border border-white/20 bg-gradient-to-br from-slate-900 via-slate-800 to-violet-900 p-6 text-white shadow-inner">
+              <div className="relative">
+                <p className="inline-flex rounded-full bg-white/10 px-4 py-2 text-xs uppercase tracking-[0.5em] text-slate-200">
+                  Featured Identity
+                </p>
+                <div className="mt-6 flex flex-col gap-4 rounded-2xl border border-white/20 bg-gradient-to-br from-slate-900 via-slate-800 to-violet-900 p-6 text-white shadow-[0_30px_80px_rgba(15,23,42,0.4)]">
                   <div className="flex items-center gap-4 text-slate-100">
                     <div className="relative h-16 w-16 overflow-hidden rounded-2xl border border-white/30">
                       <Image src="/profile.jpg" alt="Lance Ian T. Leanillo" fill className="object-cover" sizes="64px" priority />
                     </div>
                     <div>
                       <p className="text-sm uppercase tracking-[0.4em] text-white/70">CPU · Iloilo City</p>
-                      <p className="text-xl font-semibold text-emerald-200">Lance Leanillo</p>
+                      <p className="text-xl font-semibold text-emerald-200">Lance Ian Leanillo</p>
                       <p className="text-sm text-slate-200">Software Development Specialist</p>
                     </div>
                   </div>
