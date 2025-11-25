@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Lance Ian T. Leanillo · Portfolio",
   description:
-    "Portfolio website of Lance Ian T. Leanillo, CPU Computer Science student specializing in software development, UI engineering, and robotics-driven innovation.",
+    "Portfolio website of Lance Ian T. Leanillo, Computer Science student at Central Philippine University specializing in software development",
 };
 
 export default function RootLayout({
