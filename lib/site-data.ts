@@ -1,11 +1,37 @@
-export const certificatesList = [
+export type ContactLink = {
+  label: string;
+  value: string;
+  href: string;
+};
+
+export type ExperienceItem = {
+  period: string;
+  title: string;
+  details: string;
+};
+
+export type ProjectItem = {
+  title: string;
+  description: string;
+  concept: string;
+  stack: string[];
+  url: string;
+};
+
+export type ServiceItem = {
+  title: string;
+  description: string;
+  bullets: string[];
+};
+
+export const certificatesList: string[] = [
   "CompTIA ITF+",
   "LEGO Robotics",
   "BASED BUILD PH",
   "CPU STEM Expo",
 ];
 
-export const contactLinks = [
+export const contactLinks: ContactLink[] = [
   {
     label: "Email",
     value: "lanceianleanillo@gmail.com",
@@ -28,7 +54,7 @@ export const contactLinks = [
   },
 ];
 
-export const experienceTimeline = [
+export const experienceTimeline: ExperienceItem[] = [
   {
     period: "2020",
     title: "LEGO Education Robotics Trainee",
@@ -47,7 +73,7 @@ export const experienceTimeline = [
   },
 ];
 
-export const featureBadges = [
+export const featureBadges: string[] = [
   "Design Systems",
   "Rapid Prototyping",
   "Robotics",
@@ -56,7 +82,7 @@ export const featureBadges = [
   "Community Work",
 ];
 
-export const projectsData = [
+export const projectsData: ProjectItem[] = [
   {
     title: "Shopping List App",
     description:
@@ -83,7 +109,7 @@ export const projectsData = [
   },
 ];
 
-export const servicesData = [
+export const servicesData: ServiceItem[] = [
   {
     title: "Full-Stack Development",
     description:
@@ -110,7 +136,7 @@ export const servicesData = [
   },
 ];
 
-export const skillsList = [
+export const skillsList: string[] = [
   "Dart",
   "JavaScript",
   "HTML/CSS",
